@@ -1,0 +1,27 @@
+/* Write your code here. */
+.thumbnail-item {
+  list-style-type: none;
+}
+
+.thumbnail-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-image {
+    width: 55px;
+    height: 55px;
+  }
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.selectedthumbnail {
+  opacity: 1;
+}
